@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script src="listaFetch.js"></script>
+
+        <form action="http://127.0.0.1:8081/" method='post'>
+        valore1:<br>
+        <input type="text" name="valore1" value="val1">
+        <br>
+        valore2:<br>
+        <input type="text" name="valore2" value="val2">
+        <br><br>
+        <input type="submit" value="Submit with POST">
+        </form>
+            
+        <form action="http://127.0.0.1:8081/" method='get'>
+        valore1:<br>
+        <input type="text" name="valore1" value="val1">
+        <br>
+        valore2:<br>
+        <input type="text" name="valore2" value="val2">
+        <br><br>
+        <input type="submit" value="Submit with GET">
+        </form>
+
+        
+        <h2>Lista fetch</h2>
+        <ul id="oggetti"></ul>
+        <button id="creaListaBottone" onclick="creaLista()">creaLista</button>
+
+    </body>
+</html>

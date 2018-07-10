@@ -1,0 +1,33 @@
+{
+  "name": "exam-private",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nodeMain.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node nodeMain.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sphoebs/exam-private.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sphoebs/exam-private/issues"
+  },
+  "homepage": "https://github.com/sphoebs/exam-private#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.2",
+    "node-fetch": "^1.7.3",
+    "node-fetch-json": "0.0.3",
+    "pg": "^7.4.0",
+    "uuid-v4": "^0.1.0"
+  },
+  "devDependencies": {
+    "jest": "^23.4.0",
+    "jest-mongoose": "^1.0.2"
+  }
+}
